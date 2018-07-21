@@ -2,5 +2,5 @@
 
 whoami
 docker -v
-docker images
-docker run --rm -v $(pwd):/opt/app -w /opt/app gradle gradle upload
+sudo docker images
+sudo docker run --rm -v $(pwd):/opt/app -w /opt/app gradle gradle upload
